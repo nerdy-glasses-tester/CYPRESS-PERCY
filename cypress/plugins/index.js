@@ -16,10 +16,10 @@
  * @type {Cypress.PluginConfig}
  */
 
-const { addMatchImageSnapshotPlugin } = require("cypress-image-snapshot/plugin")
-const percyHealthCheck = require("@percy/cypress/task")
+import { addMatchImageSnapshotPlugin } from "cypress-image-snapshot/plugin"
+import percyHealthCheck from "@percy/cypress/task"
 
-module.exports = (on, config) => {
+export default (on, config) => {
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
   addMatchImageSnapshotPlugin(on,config)
