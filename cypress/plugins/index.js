@@ -17,7 +17,7 @@
  */
 
 const { addMatchImageSnapshotPlugin } = require("cypress-image-snapshot/plugin")
-const percyHealthCheck = require("@percy/cypress/task")
+const percyHealthCheck = require("@percy/cypress/types")
 
 module.exports = (on, config) => {
   // `on` is used to hook into various events Cypress emits
