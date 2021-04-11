@@ -14,10 +14,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@percy/cli": "^1.0.0-beta.47",
     "@percy/cypress": "^3.0.0",
     "cypress": "^7.0.1",
     "cypress-image-snapshot": "^4.0.1",
     "prettier": "^2.2.1"
+  },
+  "devDependencies": {
+    "@percy/cli": "^1.0.0-beta.47"
   }
 }
